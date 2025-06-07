@@ -1,18 +1,40 @@
+import { link } from "fs";
+
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Desarrolladora Java Full Stack",
+    corporation: "Bootcamp Generation",
+    date: "03/2025 – 06/2025",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Desarrolladora web JavaScript",
+    corporation: "Mujer digital - Junior Achievement",
+    date: "07/2024 – 01/2025",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: "AWS Certified Cloud Practitioner",
+    corporation: "Mujer digital - Junior Achievement",
+    date: "12/2024 – 01/2025",
+  },
+  {
+    title: "Inglés para todos - Slang 2024",
+    corporation: "Santander Open Academy",
+    date: "06/2024 – 12/2024",
+  },
+  {
+    title: "Desarrollo web con JavaScript",
+    corporation: "Alura Latam",
+    date: "09/2024",
+  },
+  {
+    title: "Diseño y desarrollo de una página web",
+    corporation: "Domestika",
+    date: "08/2024",
+  },
+  {
+    title: "Bachillerato con carrera Técnica",
+    corporation: "Laboratorista Químico COBAEM 31",
+    date: "06/2013 – 06/2016",
   },
 ];
 
@@ -47,28 +69,12 @@ export const skills = [
     icon: IconKeys.html,
   },
   {
-    title: "Css",
-    icon: IconKeys.css,
-  },
-  {
     title: "JavaScript",
     icon: IconKeys.javaScript,
   },
   {
-    title: "Astro",
-    icon: IconKeys.astro,
-  },
-  {
-    title: "Tailwindcss",
-    icon: IconKeys.tailwind,
-  },
-  {
     title: "React Js",
     icon: IconKeys.react,
-  },
-  {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
   },
   {
     title: "Git",
@@ -79,250 +85,150 @@ export const skills = [
     title: "Github",
     icon: IconKeys.github,
   },
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
 
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
-  },
-  {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
-  {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
-  {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
-  },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
-
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
-  {
-    title: "Vite",
-    icon: IconKeys.vite,
-  },
-  {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
-
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
-  {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
-  },
 ];
 
 export const projects = [
   {
     img: "../../../img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
-    technologies: [
-      {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.mongodb,
-      },
-      {
-        icon: IconKeys.stripe,
-      },
-    ],
-  },
-  {
-    img: "../../../img/nexanime.webp",
-    title: "NexAnime",
-    link: "https://nexanime.vercel.app",
-    description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
-    technologies: [
-      {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/cyberpunk.webp",
-    title: "cyberpunk",
-    link: "https://preeminent-liger-266356.netlify.app/",
-    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
-      el ususario puede ver los tailer de él juegos y también los
-      episodios de la serie....`,
+    title: "Blackjack",
+    link: "https://heartfelt-blackjack-vite.netlify.app",
+    description: `Juego interactivo donde el usuario puede jugar contra la computadora, solicitando cartas hasta alcanzar o acercarse a 21.`,
     technologies: [
       {
         icon: IconKeys.html,
       },
       {
-        icon: IconKeys.css,
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.react,
+      },
+      {
+    title: "Git",
+    icon: IconKeys.git,
+  },
+
+  {
+    title: "Github",
+    icon: IconKeys.github,
+  },
+    ],
+  },
+  {
+    img: "../../../img/nexanime.webp",
+    title: "Generador de contraseñas",
+    link: "https://nancycl.github.io/Generador-de-contrase-as/",
+    description: `Herramienta que permite generar contraseñas seguras personalizadas según el número de caracteres deseado.`,
+    technologies: [
+      {
+        icon: IconKeys.html,
       },
       {
         icon: IconKeys.javaScript,
       },
+      {
+    title: "Git",
+    icon: IconKeys.git,
+  },
+
+  {
+    title: "Github",
+    icon: IconKeys.github,
+  },
+    ],
+  },
+  {
+    img: "../../../img/cyberpunk.webp",
+    title: "control de gastos",
+    link: "https://nancycl.github.io/control-de-gastos/",
+    description: `Aplicación para registrar y visualizar los gastos mensuales, permitiendo al usuario llevar un control simple de sus finanzas.`,
+    technologies: [
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+    title: "Git",
+    icon: IconKeys.git,
+  },
+
+  {
+    title: "Github",
+    icon: IconKeys.github,
+  },
     ],
   },
   {
     img: "../../../img/store-games.webp",
-    title: "Store games",
-    link: "https://store-games-site.netlify.app/",
-    description: `Simulando una página de juegos , consumiendo la API de rawg api
-      donde los usuarios pueden buscar videojuegos, ver sus detalles como
-      creadores , calificaciones,tiendas donde comprar.....`,
+    title: "Calculadora",
+    link: "https://nancycl.github.io/calculadora/",
+    description: `Permite realizar operaciones aritméticas simples entre dos números ingresados por el usuario.`,
     technologies: [
       {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
+        icon: IconKeys.html,
       },
       {
         icon: IconKeys.javaScript,
       },
       {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
+    title: "Git",
+    icon: IconKeys.git,
+  },
+
+  {
+    title: "Github",
+    icon: IconKeys.github,
+  },
     ],
   },
+
   {
     img: "../../../img/movie.webp",
-    title: "Movie Tv",
-    link: "https://movietvsite.netlify.app/",
-    description: `simulando una página de películas , consumiendo la API de themovietv
-              donde los usuarios pueden buscar películas y ver trailer.....`,
+    title: "Invitación",
+    link: "https://github.com/Nancycl/mi-primera-invitaci-n",
+    description: `Página simulada de invitación a un evento tecnológico, mostrando detalles del evento para los asistentes.`,
     technologies: [
       {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
+        icon: IconKeys.html,
       },
     ],
   },
 
   {
     img: "../../../img/fit-nation.webp",
-    title: "gym",
-    link: "https://fitnation.netlify.app/",
-    description: `landing page de una gym por ahora es una landing todavia está en
-              desarrollo la idea es que los usuarios puedan comprar productos de
-              el gym`,
+    title: "Certificados",
+    link: "https://drive.google.com/drive/folders/1E92VBM0yudyLtUvE3lc97WbqltNp5J9r?usp=drive_link",
+    description: `Habilidades Técnicas`,
     technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
     ],
   },
-  {
+ {
     img: "../../../img/spotify.webp",
-    title: "Spotify-Clone",
-    link: "https://www.linkedin.com/posts/osnaider-mart%C3%ADnez_clon-de-la-p%C3%A1gina-de-spotify-echo-con-react-activity-7119712602342965248-upgL?utm_source=share&utm_medium=member_desktop",
-    description: `Clon de la página de Spotify con autenticación de usuario, reproductor de canciones, etc `,
+    title: "Certificados",
+    link: "https://drive.google.com/drive/folders/17lWV7CamnANU6XlgeFweUpQpkn5enYdL",
+    description: `Habilidades blandas`,
     technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.redux,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
     ],
   },
 
+
   {
-    img: "../../../img/landing.webp",
-    title: "Landing Realidad Virtual",
-    link: "https://realityvirtual.netlify.app/",
-    description: `landing page de gafas de realidad virtual donde se muestra el
-              producto y como funciona`,
+    img: "../../../img/tasks-manager.webp",
+    title: "Cátalogos",
+    link: "https://drive.google.com/drive/folders/1SgiqW8TYEY8irz35wC2ydu4r52zVoVnr",
+    description: `Cátalogos realizados con Adove Illustrator para diferentes marcas. "`,
     technologies: [
-      {
-        icon: IconKeys.astro,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
     ],
   },
   {
-    img: "../../../img/tasks-manager.webp",
-    title: "Tasks Manager",
-    link: "https://task-manager-ecru-chi.vercel.app/dashboard",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
+    img: "../../../img/ilustracion.webp",
+    title: "Ilustraciones",
+    link: "https://drive.google.com/drive/folders/15Aug9mM43M-eCf05sKdzfr5KenIahgip",
+    description: `Ilustraciones personales realizadas con Adove Photoshop e illustrator."`,
     technologies: [
-      {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.zustand,
-      },
-      {
-        icon: IconKeys.shadcn,
-      },
     ],
   },
 ];
