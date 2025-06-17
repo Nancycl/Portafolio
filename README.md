@@ -1,3 +1,5 @@
+las actualizaciones estan en la rama dev
+
 # Astro Starter Kit: Minimal
 
 ```
