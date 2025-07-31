@@ -115,29 +115,7 @@ export const projects = [
   },
     ],
   },
-  {
-    img: "../../../img/nexanime.webp",
-    title: "Generador de contraseñas",
-    link: "https://nancycl.github.io/Generador-de-contrase-as/",
-    description: `Herramienta que permite generar contraseñas seguras personalizadas según el número de caracteres deseado.`,
-    technologies: [
-      {
-        icon: IconKeys.html,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-    title: "Git",
-    icon: IconKeys.git,
-  },
-
-  {
-    title: "Github",
-    icon: IconKeys.github,
-  },
-    ],
-  },
+  
   {
     img: "../../../img/cyberpunk.webp",
     title: "control de gastos",
@@ -186,14 +164,40 @@ export const projects = [
   },
 
   {
-    img: "../../../img/movie.webp",
-    title: "Invitación",
-    link: "https://github.com/Nancycl/mi-primera-invitaci-n",
-    description: `Página simulada de invitación a un evento tecnológico, mostrando detalles del evento para los asistentes.`,
+    img: "../../../img/nexanime.webp",
+    title: "Generador de contraseñas",
+    link: "https://nancycl.github.io/Generador-de-contrase-as/",
+    description: `Herramienta que permite generar contraseñas seguras personalizadas según el número de caracteres deseado.`,
     technologies: [
       {
         icon: IconKeys.html,
       },
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+    title: "Git",
+    icon: IconKeys.git,
+  },
+
+  {
+    title: "Github",
+    icon: IconKeys.github,
+  },
+    ],
+  },
+  {
+    img: "../../../img/movie.webp",
+    title: "Número secreto",
+    link: "https://nancycl.github.io/numero-secreto",
+    description: `Juego interactivo para descubrir un número entre el 1 y 100, con pequeñas pistas.`,
+    technologies: [
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.javaScript,
+      }
     ],
   },
 
